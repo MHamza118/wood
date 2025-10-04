@@ -1,6 +1,6 @@
 class CustomerApiService {
   constructor() {
-    this.baseURL = import.meta.env.VITE_API_BASE_URL || 'http://api.woodfire.food/api/v1';
+    this.baseURL = import.meta.env.VITE_API_BASE_URL || 'https://api.woodfire.food/api/v1';
     this.token = this.getAuthToken();
   }
 
